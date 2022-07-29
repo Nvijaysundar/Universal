@@ -1,3 +1,4 @@
+
  JAVA
 
 Programming components:(Alphabets)
@@ -1005,7 +1006,170 @@ public synchonized E setElement(E,int);
 		
 		
 
+	public abstract boolean add(E);
+	public abstract boolean offer(E);
+	public abstract E remove();
+	public abstract E poll();
+	public abstract E peek	();
+	public abstract E element();
 
+	PriorityQueue<E> ob = new PriorityQueue<E>();
+
+
+		Map<K,V>  
+
+
+
+
+		public default void forEach(java.uti.function.Consumer<?super T>);
+
+		Map<K,V>
+		
+		public default void forEach(java.uti.function.BiConsumer<? super K, ? super V>);
+
+		
+	BiConsumer<K,V>
+		-> 
+
+		Structure :
+			
+		public interface java.util.function.BiConsumer<T,U>
+		{
+			public abstract void accept(T,U);
+		}
+
+	Cursor Statements: 	
+	1) Iterator<E> : -> 
+				-> public abstract boolean hasNext();
+				->public abstract E next();
+				->public default void remove();
+				-> public default void forEacReamining<java.util.function.Consumer<? 																		super>); 
+	2)ListIterstor<E>
+	3)Enumeration<E>
+				
+				public abstract boolean hasMoreElements();
+				public abstract E nextElement();
+				public default java.util.Iterator<E> asIterator();
+	4)Spliterator
+
+	Enum<E> :
+
+		Enumerated Data Type.
+		
+		enum 	
+		
+
+		Structure:
+
+		enum Enum_name
+		{
+			//Elements
+			//variables
+			//methods
+		}
+		
+		
+	Summary:
+	1)Userdefined Class Objects
+	2)String objects
+	3)Wrapper Class Obkjects
+	4)Array Objects
+	5)Collection<E> Objects - Set,List,Queue
+	6)Map<K,V> Objects
+	7)Enum<E> objects
+	
+	2) String Objects:
+		-> String Object
+		-> String Builder Object
+		-> String Bufer Objects
+		-> StringTokenizer
+		-> String Joiner
+	#)Wrapper Classes Objects:
+	1)Byte object
+	2)Short Object
+	3)Integer Object	
+	4)Long Object
+	5)Float Object
+	6)Double Object
+	7)Charecter Object
+	8)Boolean Object
+
+	Array Objects:
+	1)Array holing user defined class objects
+	2)Array holding Wrapper class Object
+	3)Array holding primitive daatypes
+	4)Array holing String
+	5)Array holding Dis Similar Array objects)
+	6) Array holding array objects
+	
+	Collection<E> Objects:
+	
+	->  Set<E>
+		-> HashSet<E>
+		->LinkedSet<E>
+		-> TreeSet<E>
+	->List<E>
+		-> ArrayList<E>
+		->LinkedList<E>
+		->Vector<E>
+				-> Stack<E>
+	-> Queue<E>
+		-> PriorityQueue<E>
+		->Deque<E>
+			->ArrayDeque<E>
+			->LinkedListDeque<E>
+
+	Map<K,V> Objects
+		->HashMap<K,V>
+		->LinkedHashMap<K,V>
+		->TreeMap<K,V>
+		->HashTable<K,V>
+
+	Enum<E>objects
+
+	Cursor Objects:
+		Iterator<E>
+		ListIterator<E>
+		Enumeration<E>
+		Spliterator<E>
+	
+	Utility Objects
+	-> StringTokinizer
+	->StringJoiner
+	->Scanner
+	->Arrays
+	->Collections
+
+	Poly -> Many
+	Morphism -> Forms
+
+	SingleTon Class 
+	
+		Instantiation
+
+
+	Early -> Object si created while class loading
+		-> the object is created inside static block.
+
+
+		try block :
+		->  
+		
+		Sytax:
+		
+		try
+		{
+
+		}
+
+
+
+
+
+	
+	
+	
+	
 
 
 
